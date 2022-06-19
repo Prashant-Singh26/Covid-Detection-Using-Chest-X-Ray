@@ -1,0 +1,225 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>About</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+      <!-- fevicon -->
+      <link rel="icon" href="{% static 'images/fevicon.png' %}" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="{% static 'css/jquery.mCustomScrollbar.min.css' %}">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+      <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <body>
+      <!--header section start -->
+      <div class="header_section header_bg">
+         <div class="container-fluid">
+               <div class="main">
+                  <div class="logo"><a href="{% url 'index' %}"><img src="{% static 'images/logo.png' %}"></a></div>
+                  <div class="menu_text">
+                     <ul>
+                        <div class="togle_">
+                           <div class="menu_main">
+                              
+                           </div>
+                        </div>
+                        <div id="myNav" class="overlay">
+                           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                           <div class="overlay-content">
+                              <a href="{% url 'index' %}">Home</a>
+                              <a href="{% url 'protect' %}">Protect</a>
+                              <a href="{% url 'about' %}">About</a>
+                              <a href="{% url 'predict' %}">Convid Test</a>
+                              
+                           </div>
+                        </div>
+                        <span class="navbar-toggler-icon"></span>
+                        <span onclick="openNav()"><img src="{% static 'images/toogle-icon.png' %}" class="toggle_menu"></span>
+                        <span onclick="openNav()"><img src="{% static 'images/toogle-icon1.png' %}" class="toggle_menu_1"></span>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- banner section start -->
+            <div class="container">
+               <div class="about_taital_main">
+                  <h2 class="about_tag">About Corona Virus</h2>
+                  <div class="about_menu">
+                     <ul>
+                        <li><a href="{% url 'index' %}">Home</a></li>
+                        <li>About</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         <!-- banner section end -->
+      </div>
+      <!-- header section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_img"><img src="{% static 'images/5876.jpg' %}"></div>
+               </div>
+               <div class="col-md-6">
+                  <h1 class="about_taital">What is Coronavirus?</span></h1>
+                  <p class="about_text">Coronaviruses are a family of viruses that can cause respiratory illness in humans. 
+                     They are called “corona” because of crown-like spikes on the surface of the virus. 
+                     Severe acute respiratory syndrome (SARS), Middle East respiratory syndrome (MERS) and
+                      the common cold are examples of coronaviruses that cause illness in humans.<br>
+                      COVID-19 virus mainly spreads from person to person among those in close contact (within about 6 feet, or 2 meters). The virus spreads by respiratory droplets released when someone infected with the virus coughs, sneezes, breathes, sings or talks. These droplets can be inhaled or land in the mouth, nose or eyes of a person nearby.
+
+                      <br>Sometimes the COVID-19 virus can spread when a person is exposed to small droplets or aerosols that stay in the air for several minutes or hours — called airborne transmission.
+                      
+                      <br>The virus can also spread if you touch a surface with the virus on it and then touch your mouth, nose or eyes.</p>
+
+                  <div class="read_bt"><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1">Read More</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section end -->
+
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_img"><img src="{% static 'images/img-1.png' %}"></div>
+               </div>
+               <div class="col-md-6">
+                  <h1 class="about_taital">Symptoms of COVID-19</span></h1>
+                  <p class="about_text">People with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness. 
+                     Symptoms may appear 2-14 days after exposure to the virus. 
+                     Anyone can have mild to severe symptoms. People with these symptoms may have COVID-19:
+                  <ol class = "about_text">
+                     <li>1. Fever or chills </li>
+                        <li>2. Cough </li>
+                           <li>3. Shortness of breath or difficulty breathing</li>
+                              <li>4. Fatigue</li>
+                                 <li>5. Muscle or body aches</li>
+                                    <li>6. Headache</li>
+                                       <li>7. New loss of taste or smell, etc.</li></ol>
+
+
+                  <div class="read_bt"><a href="https://www.who.int/health-topics/coronavirus#tab=tab_3">Read More</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="footer_section_2">
+               <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">Resources</h2>
+                     <div class="footer_menu">
+                        <ul>
+               
+                           <li><a href="https://www.gov.uk/foreign-travel-advice/india">Travel Advice</a></li>
+                           <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">Protection</a></li>
+                           <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public#:~:text=Avoid%20crowds%20and%20close%20contact,when%20you%20cough%20or%20sneeze.">Care</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">About</h2>
+                     <p class="footer_text">This website is made to aware people about Covid.</p>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">Contact Us</h2>
+                     <div class="location_text">
+                        <ul>
+                           <li>
+                              <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                              <span class="padding_15">India</span></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>
+                              <span class="padding_15">convid@gmail.com</span></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">countrys</h2>
+                     <div class="map_image"><img src="{% static 'images/map-bg.png' %}"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <p class="copyright_text">© 2020 All Rights Reserved.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/popper.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+      <script src="{% static 'js/jquery-3.0.0.min.js' %}"></script>
+      <script src="{% static 'js/plugin.js' %}"></script>
+      <!-- sidebar -->
+      <script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+      <script src="{% static 'js/custom.js' %}"></script>
+      <!-- javascript --> 
+      <script src="{% static 'js/owl.carousel.js' %}"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         $(document).ready(function(){
+         $(".fancybox").fancybox({
+         openEffect: "none",
+         closeEffect: "none"
+         });
+              
+         $(".zoom").hover(function(){
+              
+         $(this).addClass('transition');
+         }, function(){
+              
+         $(this).removeClass('transition');
+         });
+         });
+      </script> 
+      <script>
+         function openNav() {
+         document.getElementById("myNav").style.width = "100%";
+         }
+         function closeNav() {
+         document.getElementById("myNav").style.width = "0%";
+         }
+      </script>  
+   </body>
+</html>
