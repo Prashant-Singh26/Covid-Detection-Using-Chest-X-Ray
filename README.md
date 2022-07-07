@@ -26,19 +26,26 @@ Model Accuracy: 95%
 
   <b>3. Protect Section</b>
   
+  
 ![Screenshot (178)](https://user-images.githubusercontent.com/107792565/177776642-2fb877c9-3073-4bdc-a862-7ae60b9ac949.png)
 
 ![Screenshot (180)](https://user-images.githubusercontent.com/107792565/177777094-38fb8f43-8f07-4d09-a88e-1bba757b1f87.png)
 
   <b>4. CONVID Test Section</b>
+  
+  
   ![Screenshot (187)](https://user-images.githubusercontent.com/107792565/177777264-9109be4d-f5e1-485d-b2ae-558738334854.png)
 
 # Result
 
 <b>Positive Patient</b>
+
+
 ![Screenshot (185)](https://user-images.githubusercontent.com/107792565/177777520-b0c16c6e-9792-48e4-a26e-953457e1aa06.png)
 
 <b>Negative Patient</b>
+
+
 ![Screenshot (188)](https://user-images.githubusercontent.com/107792565/177777551-8cd05d5b-7cdd-48cd-9b00-5ebd59cbd019.png)
 
 
